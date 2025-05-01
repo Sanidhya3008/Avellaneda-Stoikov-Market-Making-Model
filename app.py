@@ -1407,7 +1407,7 @@ def main():
                             template='plotly_white'
                         )
                         
-                        st.plotly_chart(fig_stats, use_container_width=True, key=f"fig_stats_{int(time.time())}")
+                        st.plotly_chart(fig_stats, use_container_width=True, key="fig_stats_tab2")
                         
                         st.subheader("Sharpe Ratios")
                         st.dataframe(sharpe_ratios)
@@ -1472,7 +1472,7 @@ def main():
                             template='plotly_white'
                         )
                         
-                        st.plotly_chart(fig_stats, use_container_width=True, key=f"fig_stats_{int(time.time())}")
+                        st.plotly_chart(fig_stats, use_container_width=True, key="fig_stats_tab3")
                         
                         st.subheader("Sharpe Ratios")
                         st.dataframe(sharpe_ratios)

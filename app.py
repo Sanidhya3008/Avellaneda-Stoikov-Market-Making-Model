@@ -948,7 +948,7 @@ def main():
             """)
         
         with col2:
-            st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*uKYL_4lI9Gn0MJm-yIJQGw.png", 
+            st.image("https://uci-seed-dataset.s3.ap-south-1.amazonaws.com/Orderbook.PNG", 
                     caption="Limit Order Book Visualization")
         
         with st.expander("More About Market Making"):

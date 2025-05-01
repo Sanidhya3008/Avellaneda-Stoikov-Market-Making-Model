@@ -1250,6 +1250,7 @@ def main():
                         st.info("Run a simulation first to see results.")
                 
                 with tab2:
+                    results = None 
                     if 'single_results' in st.session_state:
                         results = st.session_state.single_results
                                     
